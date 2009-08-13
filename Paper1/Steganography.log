@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=latex 2009.8.11)  27 AUG 2009 17:45
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=latex 2009.8.8)  8 AUG 2009 14:06
 entering extended mode
 **Steganography.tex
 (Steganography.tex
@@ -90,11 +90,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen116
 \c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
-) (Steganography.aux
-
-LaTeX Warning: Label `IEEEhowto:kopka' multiply defined.
-
-)
+) (Steganography.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 351.
 LaTeX Font Info:    ... okay on input line 351.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 351.
@@ -115,21 +111,457 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 402.
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--580
+
+LaTeX Warning: Citation `1' on page 1 undefined on input line 435.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--455
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.462 \subsection
+                 {Steganography in Images}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.464 T
+       he best type of images file that can be used for hiding information i...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--466
+
+ []
+
+[1
+
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.469 T
+       here are three techniques that can be used to conceal information in ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 469--471
+[]\OT1/ptm/m/n/10 There are three tech-niques that can be used
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 469--471
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.473 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.474 T
+       he method for Steganography in video usually is using the DCT (Discre...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--476
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.478 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.479 S
+       teganography also can be used in documents. It is very simple as just...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.482 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.483 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.484 S
+       teganography can be detected by using Steganalysis. It works by sensi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 487.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 487.
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--487
+[]\OT1/ptm/m/n/10 Steganography can be de-tected by us-ing
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 484--487
+\OT1/ptm/m/n/10 meth-ods that can be used for Ste-ganal-y-sis. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--487
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--489
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.493 \section
+              {Steganography Tools}\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.494 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.495 T
+       here are a lot of steganography tools available nowadays. Steganograp...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--499
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--503
+\OT1/ptm/m/n/10 Gifshuffle is specif-i-cally used to con-ceal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--503
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 503--505
+\OT1/ptm/m/n/10 Data Mark-ing Tech-nolo-gies cur-rently have
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 503--505
+\OT1/ptm/m/n/10 StegComm which is used for con-fi-den-tial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--505
+\OT1/ptm/m/n/10 mul-ti-me-dia com-mu-ni-ca-tion. The sec-ond is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--505
+
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 505--507
+\OT1/ptm/m/n/10 chang-ing the vi-sual qual-ity of the con-tainer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--507
+
+ []
+
+
+Underfull \hbox (badness 7362) in paragraph at lines 507--509
+\OT1/ptm/m/n/10 decrypting pack-ages and se-cured pass-word
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--509
+
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 509--511
+\OT1/ptm/m/n/10 view-ers. Even if the hid-den in-for-ma-tion is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--511
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--513
+
+ []
+
+
+Underfull \hbox (badness 7221) in paragraph at lines 518--520
+\OT1/ptm/m/n/10 hid-den in-for-ma-tion in JPEG im-ages files.
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 518--520
+\OT1/ptm/m/n/10 Presently, the de-tectable schemes are JSteg,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 518--520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--522
+[]\OT1/ptm/m/n/10 Steganography An-a-lyzer Ar-ti-fact Scan-ner
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 520--522
+\OT1/ptm/m/n/10 the ca-pa-bil-ity to scan the en-tire sys-tem, or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--522
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.526 \section
+              {Steganography and Security}\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.527 A
+       s discussed earlier, Steganography is an effective way to hide inform...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
+
+ []
+
+
+Underfull \vbox (badness 8000) has occurred while \output is active []
+
+ [3]
+Underfull \hbox (badness 5388) in paragraph at lines 530--532
+\OT1/ptm/m/n/10 plain-text through a se-ries of math-e-mat-i-cal
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 530--532
+\OT1/ptm/m/n/10 have key to de-crypt the ci-pher-text back to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--532
+
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 532--534
+\OT1/ptm/m/n/10 Hidden Di-rec-to-ries is a fea-ture of-fers by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--534
+
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 534--536
+\OT1/ptm/m/n/10 trans-mit im-por-tant data in seem-ingly nor-mal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--536
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.560 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 659--661
 []\OT1/ptm/m/it/9 Steganography \OT1/ptm/m/n/9 , Wiki-me-dia Foun-da-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--580
+Underfull \hbox (badness 10000) in paragraph at lines 659--661
 \OT1/ptm/m/n/9 Inc.. 23rd Au-gust 2009, 16th Au-gust
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 582.
+(Font)              <9> on input line 663.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 582.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 582.
+(Font)              <6> on input line 663.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -141,21 +573,21 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1
+[4] (Steganography.aux)
+
+LaTeX Warning: There were undefined references.
 
 
-] (Steganography.aux)
-
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 954 strings out of 95305
- 16360 string characters out of 1183059
- 66349 words of memory out of 1500000
- 4225 multiletter control sequences out of 110000
+ 957 strings out of 95305
+ 16382 string characters out of 1183060
+ 68349 words of memory out of 1500000
+ 4228 multiletter control sequences out of 110000
  28206 words of font info for 63 fonts, out of 3000000 for 5000
  17 hyphenation exceptions out of 8191
  26i,8n,19p,1194b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Steganography.dvi (1 page, 4780 bytes).
+Output written on Steganography.dvi (4 pages, 19756 bytes).

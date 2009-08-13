@@ -441,18 +441,100 @@ Nowadays steganography has evolved from physical steganography used in past hist
 % (should never be an issue)
 
 
-\hfill 
+%\hfill 
  
-\hfill 
+%\hfill 
 
-\subsection{Subsection Heading Here}
-Subsection text here.
+\section{How Steganography Works}
+There are many methods that can be used to hide data inside image, video and audio files. However, the most commonly used methods are :
 
+\begin{enumerate}
+\item Least Significant Bytes\\
+Each files that has been created usually contains some bytes that are not really used or are not very important. These kind of bytes can be used to hide information to be hidden by replacing it. This can be done without altering or damaging the file.
+\\
+\item Injection\\
+This method is very simple and straight forward.The information to be hidden can directly injected into the file. However, there is drawback of using this method. It can increase the file size significantly, making the file suspicious.
 
-\subsubsection{Subsubsection Heading Here}
-Subsubsection text here.
+\end{enumerate}
 
+\section{Steganography and the Carrier Files}
+\\
+\subsection{Steganography in Images}
+\\
+The best type of images file that can be used for hiding information is a 24 Bit BMP (Bitmap)image. This is because, the 24 Bit BMP file is the largest type of file and usually is the highest quality. It is easier to hide information in a large file that contain of high quality and resolution.However, some people tend to choose smaller size file like 8 Bit BMP or other type of image format for instance the GIF file. The reason is posting a large size image file may invoke suspicious. It is good to know that a hidden information within an image file will be lost if the file is converted to other type of image file.
+\\
+\subsection{Steganography in Audio}
+\\
+\\
+There are three techniques that can be used to conceal information in an audio file. The first technique is called low bit encoding. It is similar to LSB technique that is used in image file. However, there is drawback using this technique since it always noticeable to human ear. Therefore it is risky to use this technique to hide information within an audio file. The second technique is Spread Spectrum. It is used by adding random noises to the signal the information is conceal inside an audio file and spread across frequency spectrum. The third technique is Echo Data Hiding. This technique uses echo in the audio file to hide information. It works by adding extra sound to an echo inside an audio file. The advantages of using this technique is it can improve the sound of an audio inside the audio file.
+\\
+\subsection{Steganography in Video}
+\\
+\\
+The method for Steganography in video usually is using the DCT (Discrete Cosine Transform) method. DCT works by altering certain parts of images in the video, and most commonly it will round them up. For instance the image has value of 5.667 it will round it up to 6. Most of the time it is not noticeable by human's eye. However, Steganography in video is the same as Steganography in images, the more information hidden in it, the more noticeable it will become.
+\\
+\subsection{Steganography in Documents}
+\\
+\\
+Steganography also can be used in documents. It is very simple as just adding white space and tabs to the end of the lines of a document. Steganography in documents is very effective since the use of white space and tabs is not visible to human's eye at all. White space and tabs often occur naturally in documents, so that there is impossible to be suspicious to the file.
 
+\section{How to Detect Steganography}\\
+\\
+\\
+Steganography can be detected by using Steganalysis. It works by sensing whether a file contain hidden information or not. Though, Steganalysis does not decrypt the hidden information. There are two methods that can be used for Steganalysis. The methods are:
+\\
+\begin{itemize}
+\item View and Compare Suspected File with Another Copy of the   		  File\\
+      It works by observing two files whether they looks  				  identical. Look also at the file size, if one is larger 			  than the other, most probably the suspected file contains 		  hidden information.\\
+\item Listen to the File\\
+      This method is used in audio file. It works by just   			  listening to two same audio files.If any different sound  		  detected, might be the suspected file contains hidden 			  information.              
+\end{itemize}
+\\
+\section{Steganography Tools}\\
+\\
+There are a lot of steganography tools available nowadays. Steganography tools are almost software that can be used to hide information within a file.\\
+\begin{itemize}
+\item JPHIDE and JPSEEK\\
+      JPHIDE and JPSEEK are programs that allow information to be 	  hide in a jpeg visual image file. JPHIDE and JPSEEK is not 		  meant to hide information only, but it also hide 					  information that make it impossible to prove that the file 		  contains hidden information.\\
+\item Blindside\\
+	  Blindside works by concealing information, or set of files  	  within a standard computer image. The new image will looks 		  identical to human's eye. The hidden information can 				  contains up to 50k.It also can include password encrypted 		  to prevent unauthorized access to the hidden information.\\
+\item Gifshuffle\\
+      Gifshuffle is specifically used to conceal information in 		  GIF images. It works by shuffling the colourmap. which 			  leaves the visible image unchanged. It can be used with all 	  GIF images, including transparency and animation images. In 	  addition, Gifshuffle provides compression and encryption of 	  the concealed information.\\
+\item Data Marking Technologies\\
+      Data Marking Technologies currently have four types digital 	  steganography product that is available in the market. The 		  first one is StegComm which is used for confidential 				  multimedia communication. The second is StegMark which is   	  used for digital watermarking of digital storage media. The 	  third is StegSafe which is used for digital storage and 			  linkage and the fourth is StegSign which is used for e-			  commerce transactions.\\
+\item Digital Picture Envelope\\
+      Digital Picture Envelope can hide information so that it is 	  hardly notice by human's eye. Thus, hidden information can 		  be very safely stored or send inside the computer or to be 		  sent to any recipient. It works by embedding the hidden 			  information in a container image without changing the 			  visual quality of the container image or even the file size 	  is remain unchanged. To reveal the hidden information, it 		  can be restore from the secret-embedded container image.\\
+\item Invisible Secrets\\
+      Invisible Secrets will conceal the information to be hidden 	  as a naive looking files such as pictures or web pages. It 		  also include several interesting. The features are strong 		  encryption algorithm, locker that allows password to 				  protect the application, manage and generate password, a 			  shredder that destroy beyond recovery files, folders and 			  internet traces, able to create self-decrypting packages 			  and secured password transfer.\\
+\item Snow\\
+	  Snow is used to conceal information in ASCII text. It works 	  by appending whitespace to the end of lines. Spaces and 			  tabs invisible from viewer, make it effective to hide 			  information from casual viewers. Even if the hidden 				  information is detected, it cannot be read if built-in 			  encryption is applied.\\
+\item Steg Party\\
+	  Steg Party is used to hide information inside of plain text 	  files. It works by making small alteration to the messages 		  for instances, changing the spelling or punctuation. Due to 	  that any plain text files can be used with this software 			  and the hidden message will be more-or-less understandable 		  when it is embedded.\\	  	             	  
+\end{itemize}
+\section{Steganalysis Tools}
+Steganalysis tools focuses on detecting Steganography and destroying the original messages. It is difficult to discover and decrypting the messages since encryption keys need to be known. Generally, it is difficult to detect Steganography that applied intensively high compression rate.Despite the fact, it still possible due to high compression will reduces the amount of information to be hide, leads to raising in encoding density that makes easier detection. The tools that available for Steganalysis are :
+
+\begin{itemize}
+\item Stegdetect\\
+	  Stegdetect is an automated tool that is capable of 				  detecting steganographic contents in images files. It is 			  able to detect steganographic contents that uses different 		  steganography tools to embed hidden information in JPEG 			  images files. Presently, the detectable schemes are JSteg, 		  JPHide, Invisible Secrets, Outguess 01.3b, F5 and appendX 		  and camouflage. Stegbreak is used to launch dictionary 			  attacks against JSteg-Shell, JPHide and OutGuess 0.13b.\\
+\item Steganography Analyzer Artifact Scanner (StegAlyzerAS)\\
+      Steganography Analyzer Artifact Scanner has the capability 		  to scan the entire system, or individual directories, on 			  suspect media for the presence of Steganography application 	  artifacts. It also able to perform an automated or manual 		  search of the Windows Registry to determine whether any of 		  the Registry key is associated with Steganography 				  application.\\
+\item Steganography Analyzer Signature Scanner (StegAlyzerSS)\\
+      Steganography Analyzer Signature Scanner has the capability 	  to scan every file on suspected media for the presence of 		  Steganography applications in the files such as hexadecimal 	  bytes patterns or signatures.If a known signature is 				  detected, it is possible to extract hidden information with 	  the Steganography application associated with the 				  signature.     	   
+\end{itemize} 
+\\
+\section{Steganography and Security}\\
+As discussed earlier, Steganography is an effective way to hide information, thus protecting it from unauthorized user or access.However, Steganography is just one of the method protect the confidentiality of data. Steganography will be best used in combination with another data hiding method. The combination will be a part of a layered security approach. Some of good data hiding method that can be used in conjunction with Steganography include :\\
+
+\begin{itemize}
+\item Encryption\\
+      Encryption is the process of passing data or plaintext 			  through a series of mathematical operations that generate 		  another form of original data that is called ciphertext. 			  Only parties that have key to decrypt the ciphertext back 		  to the original data can read the encrypted data. However, 		  encryption will not hide data, but it will only make the 			  data difficult to read.\\
+\item Hidden Directories\\ 
+      Hidden Directories is a feature offers by windows, which 			  allows files to be hide. This feature is simple as just 			  changing the property of a file to 'hidden' and the file 			  will be invisible. Conversely, the file will be visible if 		  someone choose to displays all types of files in their 			  explorer.\\
+\item Covert Channels\\
+      Covert Channels is tools that can be used to transmit 			  important data in seemingly normal network traffic. The 			  example of the tool is called Loki. Loki hides data in ICMP 	  traffic.\\            
+\end{itemize}
+\\
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
 % For figures, \caption should occur after the \includegraphics.
@@ -538,17 +620,16 @@ Subsubsection text here.
 
 
 \section{Conclusion}
-The conclusion goes here. this is more of the conclusion
+Steganography is an old and incredibly versatile and effective technique for obscuring information. The idea of Steganography has been there for a long time and now it has been evolve into modern Steganography that has many method and tools to accomplished Steganography. Although methods of detecting Steganography known as Steganalysis exists, they cannot be entirely relied upon, as none of the techniques is 100 percent effective. Any attempt to detect and thwart the Steganography must use combination of detection methods and vigilance to blunt the effectiveness of the process.
 
 % conference papers do not normally have an appendix
 
 
 % use section* for acknowledgement
 \section*{Acknowledgment}
+I would like to express my gratitude to Mr. Mohd Zamri Murah the lecturer of Client Server for his precious guidance, all my colleague for their companionship and last but not least to my husband for his endless support.
 
 
-The authors would like to thank...
-more thanks here
 
 
 % trigger a \newpage just before the given reference
@@ -573,8 +654,8 @@ more thanks here
 % <OR> manually copy in the resultant .bbl file
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
-\begin{thebibliography} {1}
-\bibitem{IEEEhowto:kopka}
+\begin{thebibliography} {99}
+\bibitem{1}
  \emph{Steganography }, Wikimedia Foundation Inc..\hskip 1em plus
   0.5em minus 0.4em\relax 23rd August 2009, 16th August 2009:http://en.wikipedia.org/Wiki/Steganography
 
